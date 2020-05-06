@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MNIST DEMO</title>
+</head>
+<body>
+
+<h2>MNIST DEMO</h2>
+<hr>
+<h3>Please Select Input Images</h3>
+{% for idx, img in sample_images %}
+<a href="/inference?testId={{idx}}"><img src="{{img}}"/></a>
+{% endfor %}
+</body>
+</html>

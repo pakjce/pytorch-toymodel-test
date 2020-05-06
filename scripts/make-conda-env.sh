@@ -5,11 +5,11 @@ set -ef -o pipefail
 CONDA_ENV_NAME=pytorch15-study
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-conda create -n ${CONDA_ENV_NAME} python=3.6
+conda create -n ${CONDA_ENV_NAME} python=3.7
 
-conda install -n ${CONDA_ENV_NAME} -y virtualenv numba cython numpy \
-    mkl mkl-include setuptools jupyterlab jupyter \
-    matplotlib protobuf pytorch=1.5 torchvision cpuonly wheel -c pytorch
+conda install -n ${CONDA_ENV_NAME} -y virtualenv cython numpy \
+    jupyter jupyterlab matplotlib \
+    mkl setuptools pytorch=1.5 torchvision=0.6 wheel -c pytorch
 
 # Install Essential Packages
 CONDA_ENV_DIR=$(conda env list | grep "/.*/${CONDA_ENV_NAME}" | awk '{print $2}')
