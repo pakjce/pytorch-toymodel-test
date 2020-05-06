@@ -18,7 +18,7 @@ Pytorch 1.5 Toymodel을 Test하기 위한 환경입니다.
 
 ### 환경 구성 Tip
 
-[direnv](https://direnv.net/) 를 설치해두시면 다음과 같이 project 폴더에 `.envrc` 파일을 만들어서 자동으로 환경이 activate 되도록 할 수 있습니다.
+[direnv](https://direnv.net/) 를 설치해두면 다음과 같이 project 폴더에 `.envrc` 파일을 만들어서 자동으로 환경이 activate 되도록 할 수 있습니다.
 
 ```bash
 source ./scripts/activate-conda-env.sh
