@@ -7,7 +7,6 @@ CONDA_ENV_NAME=pytorch15-study
 
 conda create -n ${CONDA_ENV_NAME} python=3.6
 
-conda install -n ${CONDA_ENV_NAME} -y uwsgi -c conda-forge
 conda install -n ${CONDA_ENV_NAME} -y virtualenv numba cython numpy \
     mkl mkl-include setuptools jupyterlab jupyter \
     matplotlib protobuf pytorch=1.5 torchvision cpuonly wheel -c pytorch
