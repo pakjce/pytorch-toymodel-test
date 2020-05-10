@@ -25,3 +25,8 @@ Pytorch 1.5 Toymodel을 Test하기 위한 환경입니다.
 ```bash
 source ./scripts/activate-conda-env.sh
 ```
+
+
+## 2. Model Serve
+
+* https://github.com/pytorch/serve/tree/master/examples/image_classifier/mnist 참조
