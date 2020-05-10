@@ -19,5 +19,5 @@ then
       echo "Fail to find conda env!"
       exit
 else
-      ${CONDA_ENV_DIR}/bin/pip install awscli dvc[s3] pipenv
+      ${CONDA_ENV_DIR}/bin/pip install awscli dvc[s3] pipenv torchserve torch-model-archiver
 fi

@@ -6,6 +6,8 @@ Pytorch 1.5 Toymodel을 Test하기 위한 환경입니다.
 
 **중요: Conda가 설치되어있어야 합니다.**
 
+0) http://pytorch.org/serve/install.html 을 참조하여 OS에 미리 설치해두어야 하는 Package들을 설치해둡니다.
+
 1) `./scripts/make-conda-env.sh` 를 실행하여 pytorch 1.5 CPU 버전이 포함된 conda 환경을 생성합니다.
 
 2) `./scripts/make-virtualenv.sh` 를 실행하여 1) 에서 생성한 conda 환경 기반으로 Pipenv 기반 가상환경을 project 폴더에 생성합니다.
